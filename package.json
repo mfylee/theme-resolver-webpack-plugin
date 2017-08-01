@@ -1,0 +1,24 @@
+{
+  "name": "theme-resolver-webpack-plugin",
+  "version": "1.0.0",
+  "description": "theme支持插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfylee/theme-resolver-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "theme",
+    "resolve"
+  ],
+  "author": "mfylee@me.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfylee/theme-resolver-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/mfylee/theme-resolver-webpack-plugin#readme"
+}
