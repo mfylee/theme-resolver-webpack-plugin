@@ -37,13 +37,17 @@ module.exports = {
 ### 参数说明
 
 - rule(String)
+
   主题匹配前缀，如`@theme`
+
   在webpack进行路径解析的时候会讲`@theme`替换为`path+${theme}`所指定的路径
 
 - path(String)
+
   主题包的根目录
 
 - themes(Array<String>)
+
   当前主题列表，第一个参数为当前主题名称，第二个参数为默认主题名称，当所需的资源在当前主题找不到时，会去默认主题进行查找
 
 ### Example
@@ -54,6 +58,7 @@ npm run dev --theme=dark
 执行上述命令，则会加载`dark`主题的资源
 
 主题目录结构：
+```
 path
     dark
         less
@@ -61,6 +66,7 @@ path
     default
         less
         images
+```
 
 #### 在less中使用
 ```
